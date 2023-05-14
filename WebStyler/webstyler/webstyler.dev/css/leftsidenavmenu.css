@@ -1,0 +1,77 @@
+.bmws_leftnav-cont, .bmws_leftnav-item_cont, .bmws_leftnav-item, .bmws_leftnav-icon, .bmws_leftnav-ind_cont, .bmws_leftnav-ind {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_leftnav-cont {
+    height: 100%;
+    flex-direction: column;
+    width: auto;
+}
+
+.bmws_leftnav-icc, .bmws_leftnav-ice { /* icc --> Item Content Collapsed, ice --> Item Content Expanded */
+    width: 75px;
+    height: 95%;
+    transition: 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bmws_leftnav-icc::-webkit-scrollbar, .bmws_leftnav-ice::-webkit-scrollbar {background-color: var(--color_gray); width: 10px;}
+.bmws_leftnav-icc::-webkit-scrollbar-thumb, .bmws_leftnav-ice::-webkit-scrollbar-thumb {background-color: var(--color_grayd);}
+.bmws_leftnav-icc::-webkit-scrollbar-button, .bmws_leftnav-ice::-webkit-scrollbar-button {background-color: var(--color_grayd); height: 10px;}
+.bmws_leftnav-ice {width: 250px;}
+.bmws_leftnav-item_cont {
+    width: 100%;
+    height: 45px;
+    margin-top: 2px;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+
+.bmws_leftnav-item {width: 100%; height: 40px;}
+.bmws_leftnav-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: var(--color_white);
+}
+
+.bmws_leftnav-icc .bmws_active .bmws_leftnav-item,
+.bmws_leftnav-ice .bmws_active .bmws_leftnav-item {
+    transition: 0.5s;
+    color: var(--color_white);
+    background-color: var(--color_blue);
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.bmws_leftnav-text {width: 100%; margin-left: 10px;}
+.bmws_leftnav-icc .bmws_leftnav-text {opacity: 0; width: 0px; transition: 0.5s;}
+.bmws_leftnav-ind_cont {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 25px;
+    color: var(--color_white);
+    background-color: var(--color_greend);
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.bmws_leftnav-ind {width: 50px; height: 50px; position: absolute;}
+.bmws_leftnav-col .bmws_close-1, .bmws_leftnav-col .bmws_close-2 {transition: 0.5s; width: 15px; background-color: var(--color_white);}
+.bmws_leftnav-exp .bmws_close-1, .bmws_leftnav-exp .bmws_close-2 {transition: 0.5s; width: 15px; background-color: var(--color_white);}
+.bmws_leftnav-col .bmws_close-1 {transform: translate(0px, 1px) rotate(45deg);}
+.bmws_leftnav-col .bmws_close-2 {transform: translate(0px, -1px) rotate(-45deg);}
+.bmws_leftnav-exp .bmws_close-1 {transform: translate(0px, 1px) rotate(-45deg);}
+.bmws_leftnav-exp .bmws_close-2 {transform: translate(0px, -2px) rotate(45deg);}
+
+@media (max-width: 550px) {
+    .bmws_leftnav-cont {display: none;}
+}

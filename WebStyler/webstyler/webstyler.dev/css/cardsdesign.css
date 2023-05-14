@@ -1,0 +1,103 @@
+.bmws_card_sum, .bmws_card_pan-left, .bmws_card_pan-right, .bmws_card_pan-top, .bmws_card_pan-bottom,
+.bmws_card_prof, .bmws_card_prof-head, .bmws_card_prof-body, .bmws_card_prof-foot {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_card_sum {
+    width: 250px;
+    height: 125px;
+    margin-top: 3%;
+    margin-left: 3%;
+    transition: 0.5s;
+    border-radius: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    float: left;
+}
+
+.bmws_card_pan-left, .bmws_card_pan-right {width: 100%; height: 100%; font-size: 20px; position: relative;}
+.bmws_card_pan-right {width: 35px; flex-shrink: 0; font-size: 30px; align-items: flex-start; cursor: pointer;}
+.bmws_card_pan-top, .bmws_card_pan-bottom {width: 100%; height: 40%; font-size: 20px;}
+.bmws_card_pan-bottom {height: 60%; font-size: 50px;}
+.bmws_card_sum-text {width: 100%; text-align: center;}
+.bmws_card_pan-left_icon {width: 30px; flex-shrink: 0; text-align: center; position: relative;}
+
+.bmws_card_prof {
+    width: 250px;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--color_gray);
+    flex-direction: column;
+    float: left;
+}
+
+.bmws_card_prof-head, .bmws_card_prof-body, .bmws_card_prof-foot {height: 55%; width: 100%;}
+.bmws_card_prof-head {border-radius: 10px 10px 0px 0px; position: relative;}
+.bmws_card_prof-body {height: 45%; flex-direction: column;}
+.bmws_card_prof-foot {
+    height: 40px; 
+    flex-shrink: 0; 
+    border-top: 2px solid var(--color_grayd);
+}
+
+.bmws_card_prof-foot button {
+    padding: unset;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.bmws_card_prof-bg {
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    background-image: url("/src/img/AmitKRoul.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.bmws_card_prof-img {
+    height: 95%;
+    max-width: 100%;
+    position: absolute;
+    width: auto;
+}
+
+.bmws_card_prof-img_div {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+}
+
+.bmws_card_prof-title, .bmws_card_prof-desc, .bmws_card_prof-disclaimer {text-align: center;}
+.bmws_card_prof-title {
+    padding: 5px;
+    font-size: 20px;
+    color: var(--color_blue);
+}
+
+.bmws_card_prof-desc {
+    padding: 2px;
+    font-size: 13px;
+    color: var(--color_gray);
+}
+
+.bmws_card_prof-disclaimer {
+    padding: 2px;
+    font-size: 12px;
+    color: var(--color_grayd);
+    font-style: italic;
+}
+
+@media (max-width: 550px) {
+    .bmws_card_sum {width: 95%;}
+    .bmws_card_prof {width: 45%; height: 300px;}
+}

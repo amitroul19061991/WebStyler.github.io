@@ -1,0 +1,76 @@
+.bmws_tabstrip {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    min-height: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 2px 3px gray;
+    flex-direction: column;
+    overflow-x: hidden;
+    display: flex;
+    height: auto;
+}
+
+.bmws_tabstrip_tab-cont {
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    border-bottom: 2px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmws_tabstrip_tab,
+.bmws_tabstrip_tab-active {
+    width: 100%;
+    height: 40px;
+    transition: 0.1s;
+    margin-right: 3px;
+    border-radius: 5px 5px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    color: gray;
+}
+
+.bmws_tabstrip_tab-active {
+    border-bottom: 2px solid rgb(0, 89, 255);
+    color: rgb(0, 89, 255);
+}
+
+.bmws_tabstrip_tab-name,
+.bmws_tabstrip_tab-icon {
+    padding: 0%;
+    margin-right: 7px;
+    height: auto;
+    width: auto;
+}
+
+.bmws_tabstrip_body {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.bmws_tabstrip_demo-text {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: gray;
+}
+
+@media(max-width:900px) {
+    .bmws_tabstrip_tab-name {
+        display: none;
+    }
+}

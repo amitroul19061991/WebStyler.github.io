@@ -1,0 +1,40 @@
+:root {
+    --color_red: rgb(242, 28, 28);
+    --color_pink: rgb(255, 0, 144);
+    --color_blue: rgb(0, 149, 255);
+    --color_gray: rgb(180, 180, 180);
+    --color_gold: rgb(243, 179, 4);
+    --color_teal: rgb(0, 128, 128);
+    --color_grayl: rgb(220, 220, 220);
+    --color_black: rgb(20, 19, 19);
+    --color_white: rgb(255, 255, 255);
+    --color_green: rgb(34, 203, 34);
+    --color_greend: green;
+    --color_grayd: rgb(117, 113, 113);
+    --color_trans: transparent;
+    --color_maroon: rgb(146, 0, 0);
+    --color_yelgrn: rgb(177, 213, 33);
+    --color_yellow: rgb(255, 255, 0);
+    --color_orange: rgb(255, 149, 0);
+    --color_yellowl: rgb(255, 255, 142);
+    --color_yelgrnl: rgb(222, 255, 88);
+    --color_purpled: rgb(80, 0, 80);
+    --color_purplel: rgb(161, 0, 161);
+    --color_bluenav: rgb(0, 0, 114);
+    --color_black_t: rgba(0, 0, 0, 0.5);
+    --color_white_t: rgba(255, 255, 255, 0.5);
+    --color_bluesnow: rgb(243, 253, 255);
+
+    --bglg_red_black: linear-gradient(to bottom right, var(--color_red), var(--color_black));
+    --bglg_gold_black: linear-gradient(to bottom right, var(--color_gold), var(--color_black));
+    --bglg_pink_black: linear-gradient(to bottom right, var(--color_pink), var(--color_black));
+    --bglg_blue_black: linear-gradient(to bottom right, var(--color_blue), var(--color_black));
+    --bglg_green_black: linear-gradient(to bottom right, var(--color_green), var(--color_black));
+    --bglg_maroon_black: linear-gradient(to bottom right, var(--color_maroon), var(--color_black));
+    --bglg_purplel_black: linear-gradient(to bottom right, var(--color_purplel), var(--color_black));
+    --bglg_purpled_black: linear-gradient(to bottom right, var(--color_purpled), var(--color_grayd));
+    --bglg_black_white: linear-gradient(to bottom right, var(--color_black), var(--color_grayd));
+
+    --max_scrn-mob: 550px;
+    --max_scrn-tab: 900px;
+}

@@ -1,0 +1,387 @@
+* {font-family: "ZCOOL XiaoWei";}
+
+.bmws_hidden {display: none !important;}
+.bmws_show-flex {display: flex !important;}
+.bmws_show-block {display: block !important;}
+.bmws_show-grid {display: grid !important;}
+.bmws_show-inbl {display: inline-block !important;}
+.bmws_invisible {opacity: 0 !important;}
+.bmws_visible {z-index: 10; opacity: 1 !important;}
+
+
+
+.bmws_close {padding: 1px; font-size: xx-large; cursor: pointer;}
+
+
+.bmws_circle {border-radius: 50%;}
+.bmws_linkify {color: var(--color_bluenav); text-decoration: underline;}
+.bmws_linkify:hover {text-decoration: none; cursor: pointer;}
+
+
+.bmws_skip-10px {height: 10px; width: 100%;}
+.bmws_skip-20px {height: 20px; width: 100%;}
+.bmws_skip-30px {height: 30px; width: 100%;}
+.bmws_skip-40px {height: 40px; width: 100%;}
+.bmws_skip-50px {height: 50px; width: 100%;}
+.bmws_skip-60px {height: 60px; width: 100%;}
+.bmws_skip-70px {height: 70px; width: 100%;}
+.bmws_skip-80px {height: 80px; width: 100%;}
+.bmws_skip-90px {height: 90px; width: 100%;}
+.bmws_skip-100px {height: 100px; width: 100%;}
+
+
+
+.bmws_slide-left {transition: 0.5s; transform: translateX(-100%);}
+.bmws_slide-right {transition: 0.5s; transform: translateX(100%);}
+.bmws_slide-top {transition: 0.5s; transform: translateY(-100%);}
+.bmws_slide-bottom {transition: 0.5s; transform: translateY(100%);}
+.bmws_slide_anim-left {animation-duration: 0.5s; animation-name: slideleft; animation-fill-mode: forwards;}
+@keyframes slideleft {from {transform: translateX(0%);} 50% {transform: translateX(5%);} to {transform: translateX(-100%);}}
+
+
+
+.bmws_width-00px  {width: 00px;}
+.bmws_width-10px  {width: 10px;}
+.bmws_width-20px  {width: 20px;}
+.bmws_width-25px  {width: 25px;}
+.bmws_width-30px  {width: 30px;}
+.bmws_width-40px  {width: 40px;}
+.bmws_width-50px  {width: 50px;}
+.bmws_width-60px  {width: 60px;}
+.bmws_width-70px  {width: 70px;}
+.bmws_width-75px  {width: 75px;}
+.bmws_width-80px  {width: 80px;}
+.bmws_width-90px  {width: 90px;}
+.bmws_width-100px {width: 100px;}
+.bmws_width-125px {width: 125px;}
+.bmws_width-150px {width: 150px;}
+.bmws_width-175px {width: 175px;}
+.bmws_width-200px {width: 200px;}
+.bmws_width-250px {width: 250px;}
+.bmws_width-300px {width: 300px;}
+.bmws_width-350px {width: 350px;}
+.bmws_width-400px {width: 400px;}
+.bmws_width-500px {width: 500px;}
+
+.bmws_width-00prc {width: 0%;}
+.bmws_width-10prc {width: 10%;}
+.bmws_width-15prc {width: 15%;}
+.bmws_width-20prc {width: 20%;}
+.bmws_width-25prc {width: 25%;}
+.bmws_width-30prc {width: 30%;}
+.bmws_width-35prc {width: 35%;}
+.bmws_width-40prc {width: 40%;}
+.bmws_width-45prc {width: 45%;}
+.bmws_width-50prc {width: 50%;}
+.bmws_width-55prc {width: 55%;}
+.bmws_width-60prc {width: 60%;}
+.bmws_width-65prc {width: 65%;}
+.bmws_width-70prc {width: 70%;}
+.bmws_width-75prc {width: 75%;}
+.bmws_width-80prc {width: 80%;}
+.bmws_width-85prc {width: 85%;}
+.bmws_width-90prc {width: 90%;}
+.bmws_width-95prc {width: 95%;}
+.bmws_width-100prc {width: 100%;}
+
+
+
+.bmws_height-00px  {height: 00px;}
+.bmws_height-10px  {height: 10px;}
+.bmws_height-20px  {height: 20px;}
+.bmws_height-25px  {height: 25px;}
+.bmws_height-30px  {height: 30px;}
+.bmws_height-40px  {height: 40px;}
+.bmws_height-50px  {height: 50px;}
+.bmws_height-60px  {height: 60px;}
+.bmws_height-70px  {height: 70px;}
+.bmws_height-75px  {height: 75px;}
+.bmws_height-80px  {height: 80px;}
+.bmws_height-90px  {height: 90px;}
+.bmws_height-100px {height: 100px;}
+.bmws_height-125px {height: 125px;}
+.bmws_height-150px {height: 150px;}
+.bmws_height-175px {height: 175px;}
+.bmws_height-200px {height: 200px;}
+.bmws_height-250px {height: 250px;}
+.bmws_height-300px {height: 300px;}
+.bmws_height-350px {height: 350px;}
+.bmws_height-400px {height: 400px;}
+.bmws_height-500px {height: 500px;}
+
+.bmws_height-00prc {height: 0%;}
+.bmws_height-10prc {height: 10%;}
+.bmws_height-15prc {height: 15%;}
+.bmws_height-20prc {height: 20%;}
+.bmws_height-25prc {height: 25%;}
+.bmws_height-30prc {height: 30%;}
+.bmws_height-35prc {height: 35%;}
+.bmws_height-40prc {height: 40%;}
+.bmws_height-45prc {height: 45%;}
+.bmws_height-50prc {height: 50%;}
+.bmws_height-55prc {height: 55%;}
+.bmws_height-60prc {height: 60%;}
+.bmws_height-65prc {height: 65%;}
+.bmws_height-70prc {height: 70%;}
+.bmws_height-75prc {height: 75%;}
+.bmws_height-80prc {height: 80%;}
+.bmws_height-85prc {height: 85%;}
+.bmws_height-90prc {height: 90%;}
+.bmws_height-95prc {height: 95%;}
+.bmws_height-100prc {height: 100%;}
+
+
+
+.bmws_margin-l10px {margin-left: 10px;}
+.bmws_margin-r10px {margin-right: 10px;}
+.bmws_margin-l20px {margin-left: 20px;}
+.bmws_margin-r20px {margin-right: 20px;}
+.bmws_margin-l30px {margin-left: 30px;}
+.bmws_margin-r30px {margin-right: 30px;}
+.bmws_margin-l40px {margin-left: 40px;}
+.bmws_margin-r40px {margin-right: 40px;}
+.bmws_margin-l50px {margin-left: 50px;}
+.bmws_margin-r50px {margin-right: 50px;}
+.bmws_margin-l60px {margin-left: 60px;}
+.bmws_margin-r60px {margin-right: 60px;}
+.bmws_margin-l70px {margin-left: 70px;}
+.bmws_margin-r70px {margin-right: 70px;}
+.bmws_margin-l80px {margin-left: 80px;}
+.bmws_margin-r80px {margin-right: 80px;}
+.bmws_margin-l90px {margin-left: 90px;}
+.bmws_margin-r90px {margin-right: 90px;}
+.bmws_margin-l100px {margin-left: 100px;}
+.bmws_margin-r100px {margin-right: 100px;}
+
+
+
+.bmws_padding-none {padding: none;}
+
+
+
+.bmws_align-center-h {
+    left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bmws_align-center-v {
+    top: 0; bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.bmws_transition-0p1s {transition: 0.1s;}
+.bmws_transition-0p2s {transition: 0.2s;}
+.bmws_transition-0p3s {transition: 0.3s;}
+.bmws_transition-0p4s {transition: 0.4s;}
+.bmws_transition-0p5s {transition: 0.5s;}
+.bmws_transition-0p6s {transition: 0.6s;}
+.bmws_transition-0p7s {transition: 0.7s;}
+.bmws_transition-0p8s {transition: 0.8s;}
+.bmws_transition-0p9s {transition: 0.9s;}
+.bmws_transition-1s   {transition: 1s;}
+.bmws_transition-2s   {transition: 2s;}
+.bmws_transition-3s   {transition: 3s;}
+.bmws_transition-4s   {transition: 4s;}
+.bmws_transition-5s   {transition: 5s;}
+.bmws_transition-6s   {transition: 6s;}
+.bmws_transition-7s   {transition: 7s;}
+.bmws_transition-8s   {transition: 8s;}
+.bmws_transition-9s   {transition: 9s;}
+.bmws_transition-10s  {transition: 10s;}
+
+
+
+.font_size-sml {font-size: small !important;}
+.font_size-smr {font-size: smaller !important;}
+.font_size-xsm {font-size: x-small !important;}
+.font_size-xxs {font-size: xx-small !important;}
+.font_size-mdm {font-size: medium !important;}
+.font_size-lrg {font-size: large !important;}
+.font_size-lgr {font-size: larger !important;}
+.font_size-xlr {font-size: x-large !important;}
+.font_size-xxl {font-size: xx-large !important;}
+.font_size-3px {font-size: 3px !important;}
+.font_size-5px {font-size: 5px !important;}
+.font_size-6px {font-size: 6px !important;}
+.font_size-7px {font-size: 7px !important;}
+.font_size-8px {font-size: 8px !important;}
+.font_size-9px {font-size: 9px !important;}
+.font_size-10px {font-size: 10px !important;}
+.font_size-11px {font-size: 11px !important;}
+.font_size-12px {font-size: 12px !important;}
+.font_size-13px {font-size: 13px !important;}
+.font_size-14px {font-size: 14px !important;}
+.font_size-15px {font-size: 15px !important;}
+.font_size-17px {font-size: 17px !important;}
+.font_size-18px {font-size: 18px !important;}
+.font_size-20px {font-size: 20px !important;}
+.font_size-25px {font-size: 25px !important;}
+.font_size-30px {font-size: 30px !important;}
+.font_size-35px {font-size: 35px !important;}
+.font_size-40px {font-size: 40px !important;}
+.font_size-50px {font-size: 50px !important;}
+.font_size-60px {font-size: 60px !important;}
+.font_size-75px {font-size: 75px !important;}
+.font_size-90px {font-size: 90px !important;}
+.font_size-100px {font-size: 100px !important;}
+
+
+
+.bmws_font_style-i {font-style: italic;}
+
+
+
+.bmws_circle {border-radius: 50%;}
+.bmws_shadow_ar {box-shadow: 0px 0px 10px gray;} /* Shadow Arround */
+
+
+
+.bmws_color-red {color: var(--color_red) !important;}
+.bmws_color-pink {color: var(--color_pink);}
+.bmws_color-blue {color: var(--color_blue);}
+.bmws_color-gray {color: var(--color_gray);}
+.bmws_color-gold {color: var(--color_gold);}
+.bmws_color-teal {color: var(--color_teal);}
+.bmws_color-black {color: var(--color_black);}
+.bmws_color-grayd {color: var(--color_grayd);}
+.bmws_color-white {color: var(--color_white);}
+.bmws_color-green {color: var(--color_green);}
+.bmws_color-greend {color: var(--color_greend);}
+.bmws_color-maroon {color: var(--color_maroon);}
+.bmws_color-yellow {color: var(--color_yellow);}
+.bmws_color-orange {color: var(--color_orange);}
+.bmws_color-purpled {color: var(--color_purpled);}
+.bmws_color-purplel {color: var(--color_purplel);}
+.bmws_color-bluenav {color: var(--color_bluenav);}
+.bmws_color-yelgrn {color: var(--color_yelgrn);}
+
+
+
+.bmws_bgcolor-red {background-color: var(--color_red); color: var(--color_white);}
+.bmws_bgcolor-pink {background-color: var(--color_pink); color: var(--color_white);}
+.bmws_bgcolor-blue {background-color: var(--color_blue); color: var(--color_white);}
+.bmws_bgcolor-gray {background-color: var(--color_gray); color: var(--color_black);}
+.bmws_bgcolor-gold {background-color: var(--color_gold); color: var(--color_black);}
+.bmws_bgcolor-teal {background-color: var(--color_teal); color: var(--color_white);}
+.bmws_bgcolor-grayd {background-color: var(--color_grayd); color: var(--color_white);}
+.bmws_bgcolor-black {background-color: var(--color_black); color: var(--color_white);}
+.bmws_bgcolor-white {background-color: var(--color_white); color: var(--color_black);}
+.bmws_bgcolor-green {background-color: var(--color_green); color: var(--color_white);}
+.bmws_bgcolor-greend {background-color: var(--color_greend); color: var(--color_white);}
+.bmws_bgcolor-maroon {background-color: var(--color_maroon); color: var(--color_white);}
+.bmws_bgcolor-yellow {background-color: var(--color_yellow); color: var(--color_maroon);}
+.bmws_bgcolor-orange {background-color: var(--color_orange); color: var(--color_maroon);}
+.bmws_bgcolor-purpled {background-color: var(--color_purpled); color: var(--color_white);}
+.bmws_bgcolor-purplel {background-color: var(--color_purplel); color: var(--color_white);}
+.bmws_bgcolor-bluenav {background-color: var(--color_bluenav); color: var(--color_white);}
+.bmws_bgcolor-yelgrn {background-color: var(--color_yelgrn); color: var(--color_white);}
+.bmws_bgcolor-trans {background-color: transparent;}
+
+
+.bmws_border-none {border: none;}
+.bmws_border-red {border: 1px solid var(--color_red); color: var(--color_red);}
+.bmws_border-pink {border: 1px solid var(--color_pink); color: var(--color_pink);}
+.bmws_border-blue {border: 1px solid var(--color_blue); color: var(--color_blue);}
+.bmws_border-gray {border: 1px solid var(--color_gray); color: var(--color_gray);}
+.bmws_border-gold {border: 1px solid var(--color_gold); color: var(--color_gold);}
+.bmws_border-teal {border: 1px solid var(--color_teal); color: var(--color_teal);}
+.bmws_border-white {border: 1px solid var(--color_white); color: var(--color_white);}
+.bmws_border-green {border: 1px solid var(--color_green); color: var(--color_green);}
+.bmws_border-greend {border: 1px solid var(--color_greend); color: var(--color_greend);}
+.bmws_border-black {border: 1px solid var(--color_black); color: var(--color_black);}
+.bmws_border-maroon {border: 1px solid var(--color_maroon); color: var(--color_maroon);}
+.bmws_border-yellow {border: 1px solid var(--color_yellow); color: var(--color_yellow);}
+.bmws_border-orange {border: 1px solid var(--color_orange); color: var(--color_orange);}
+.bmws_border-purpled {border: 1px solid var(--color_purpled); color: var(--color_purpled);}
+.bmws_border-purplel {border: 1px solid var(--color_purplel); color: var(--color_purplel);}
+.bmws_border-bluenav {border: 1px solid var(--color_bluenav); color: var(--color_bluenav);}
+.bmws_border-yelgrn {border: 1px solid var(--color_yelgrn); color: var(--color_yelgrn);}
+
+.bmws_border-red {border: 1px solid var(--color_red) !important; color: var(--color_red) !important;}
+.bmws_border-pink {border: 1px solid var(--color_pink) !important; color: var(--color_pink) !important;}
+.bmws_border-blue {border: 1px solid var(--color_blue) !important; color: var(--color_blue) !important;}
+.bmws_border-gray {border: 1px solid var(--color_gray) !important; color: var(--color_gray) !important;}
+.bmws_border-gold {border: 1px solid var(--color_gold) !important; color: var(--color_gold) !important;}
+.bmws_border-teal {border: 1px solid var(--color_teal) !important; color: var(--color_teal) !important;}
+.bmws_border-white {border: 1px solid var(--color_white) !important; color: var(--color_white) !important;}
+.bmws_border-green {border: 1px solid var(--color_green) !important; color: var(--color_green) !important;}
+.bmws_border-greend {border: 1px solid var(--color_greend) !important; color: var(--color_greend) !important;}
+.bmws_border-black {border: 1px solid var(--color_black) !important; color: var(--color_black) !important;}
+.bmws_border-maroon {border: 1px solid var(--color_maroon) !important; color: var(--color_maroon) !important;}
+.bmws_border-yellow {border: 1px solid var(--color_yellow) !important; color: var(--color_yellow) !important;}
+.bmws_border-orange {border: 1px solid var(--color_orange) !important; color: var(--color_orange) !important;}
+.bmws_border-purpled {border: 1px solid var(--color_purpled) !important; color: var(--color_purpled) !important;}
+.bmws_border-purplel {border: 1px solid var(--color_purplel) !important; color: var(--color_purplel) !important;}
+.bmws_border-bluenav {border: 1px solid var(--color_bluenav) !important; color: var(--color_bluenav) !important;}
+.bmws_border-yelgrn {border: 1px solid var(--color_yelgrn) !important; color: var(--color_yelgrn) !important;}
+
+
+
+.bmws_badge_border-blue, .bmws_badge_bgcolor-blue,
+.bmws_badge_border-red, .bmws_badge_bgcolor-red,
+.bmws_badge_border-green, .bmws_badge_bgcolor-green,
+.bmws_badge_border-greend, .bmws_badge_bgcolor-greend,
+.bmws_badge_border-pink, .bmws_badge_bgcolor-pink,
+.bmws_badge_border-gray, .bmws_badge_bgcolor-gray,
+.bmws_badge_border-gold, .bmws_badge_bgcolor-gold,
+.bmws_badge_border-teal, .bmws_badge_bgcolor-teal,
+.bmws_badge_border-white, .bmws_badge_bgcolor-white,
+.bmws_badge_border-black, .bmws_badge_bgcolor-black,
+.bmws_badge_border-maroon, .bmws_badge_bgcolor-maroon,
+.bmws_badge_border-yellow, .bmws_badge_bgcolor-yellow,
+.bmws_badge_border-orange, .bmws_badge_bgcolor-orange,
+.bmws_badge_border-purpled, .bmws_badge_bgcolor-purpled,
+.bmws_badge_border-purplel, .bmws_badge_bgcolor-purplel,
+.bmws_badge_border-bluenav, .bmws_badge_bgcolor-bluenav,
+.bmws_badge_border-yelgrn, .bmws_badge_bgcolor-yelgrn
+{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.bmws_badge_border-blue {border: 1px solid var(--color_blue); color: var(--color_blue);} 
+.bmws_badge_border-red {border: 1px solid var(--color_red); color: var(--color_red);} 
+.bmws_badge_border-green {border: 1px solid var(--color_green); color: var(--color_green);} 
+.bmws_badge_border-greend {border: 1px solid var(--color_greend); color: var(--color_greend);} 
+.bmws_badge_border-pink {border: 1px solid var(--color_pink); color: var(--color_pink);} 
+.bmws_badge_border-gray {border: 1px solid var(--color_gray); color: var(--color_gray);} 
+.bmws_badge_border-gold {border: 1px solid var(--color_gold); color: var(--color_gold);} 
+.bmws_badge_border-teal {border: 1px solid var(--color_teal); color: var(--color_teal);} 
+.bmws_badge_border-white {border: 1px solid var(--color_white); color: var(--color_white);} 
+.bmws_badge_border-black {border: 1px solid var(--color_black); color: var(--color_black);} 
+.bmws_badge_border-maroon {border: 1px solid var(--color_maroon); color: var(--color_maroon);} 
+.bmws_badge_border-yellow {border: 1px solid var(--color_yellow); color: var(--color_yellow);} 
+.bmws_badge_border-orange {border: 1px solid var(--color_orange); color: var(--color_orange);} 
+.bmws_badge_border-purpled {border: 1px solid var(--color_purpled); color: var(--color_purpled);} 
+.bmws_badge_border-purplel {border: 1px solid var(--color_purplel); color: var(--color_purplel);} 
+.bmws_badge_border-bluenav {border: 1px solid var(--color_bluenav); color: var(--color_bluenav);} 
+.bmws_badge_border-yelgrn {border: 1px solid var(--color_yelgrn); color: var(--color_yelgrn);} 
+
+.bmws_badge_bgcolor-blue {background-color: var(--color_blue); color: var(--color_white);}
+.bmws_badge_bgcolor-red {background-color: var(--color_red); color: var(--color_white);}
+.bmws_badge_bgcolor-gray {background-color: var(--color_gray); color: var(--color_black);}
+.bmws_badge_bgcolor-gold {background-color: var(--color_gold); color: var(--color_black);}
+.bmws_badge_bgcolor-teal {background-color: var(--color_teal); color: var(--color_white);}
+.bmws_badge_bgcolor-green {background-color: var(--color_green); color: var(--color_white);}
+.bmws_badge_bgcolor-greend {background-color: var(--color_greend); color: var(--color_white);}
+.bmws_badge_bgcolor-pink {background-color: var(--color_pink); color: var(--color_white);}
+.bmws_badge_bgcolor-white {background-color: var(--color_white); color: var(--color_black);}
+.bmws_badge_bgcolor-black {background-color: var(--color_black); color: var(--color_white);}
+.bmws_badge_bgcolor-maroon {background-color: var(--color_maroon); color: var(--color_white);}
+.bmws_badge_bgcolor-yellow {background-color: var(--color_yellow); color: var(--color_white);}
+.bmws_badge_bgcolor-orange {background-color: var(--color_orange); color: var(--color_maroon);}
+.bmws_badge_bgcolor-purpled {background-color: var(--color_purpled); color: var(--color_white);}
+.bmws_badge_bgcolor-purplel {background-color: var(--color_purplel); color: var(--color_white);}
+.bmws_badge_bgcolor-bluenav {background-color: var(--color_bluenav); color: var(--color_white);}
+.bmws_badge_bgcolor-yelgrn {background-color: var(--color_yelgrn); color: var(--color_white);}

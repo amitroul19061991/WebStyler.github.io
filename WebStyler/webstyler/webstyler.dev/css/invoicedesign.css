@@ -1,0 +1,93 @@
+.bmws_invoice-act, .bmws_invoice, .bmws_invoice-head, .bmws_invoice-body, .bmws_invoice-brand_name, .bmws_invoice-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmws_invoice_cont, .bmws_invoice, .bmws_invoice-head, .bmws_invoice-body {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: unset;
+}
+
+.bmws_invoice {padding-top: 10px; height: auto;}
+.bmws_invoice-act {width: 100%; padding-bottom: 10px; justify-content: flex-end;}
+.bmws_invoice-act button {padding: 5px; margin-right: 10px;}
+.bmws_invoice-head {border-bottom: 2px solid var(--color_grayd); height: auto;}
+.bmws_invoice_cont {padding-top: 10px;}
+.bmws_invoice-brand_logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--color_white);
+    box-shadow: 0px 0px 10px 2px var(--color_gray);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.bmws_invoice-brand_name {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+.bmws_invoice-info {
+    width: 100%;
+    padding-bottom: 10px;
+    flex-direction: unset;
+}
+
+.bmws_invoice-cat {
+    width: 95%;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-style: italic; */
+}
+
+.bmws_invoice-subcat {
+    width: 95%;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: var(--color_gold);
+    border-bottom: 1px solid var(--color_grayd);
+}
+
+.bmws_invoice-line {
+    width: 100%;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    display: flex;
+    height: auto;
+}
+
+.bmws_invoice-item, .bmws_invoice-price {
+    width: 60%;
+    text-align: left;
+    height: auto;
+}
+
+.bmws_invoice-price {
+    width: 30%;
+    text-align: right;
+    overflow: hidden;
+}
+
+.bmws_invoice-line .bmws_invoice-item, .bmws_invoice-line .bmws_invoice-price {font-size: 14px;}
+.bmws_invoice-cat-subtotal, .bmws_invoice-subtotal, .bmws_invoice-total {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color_orange);
+    justify-content: space-around;
+    display: flex;
+}
+.bmws_invoice-cat-subtotal {color: var(--color_maroon); background-color: var(--color_yellow);}
+.bmws_invoice-subtotal {color: var(--color_bluenav);}
+.bmws_invoice-total {background-color: var(--color_maroon);}
+.bmws_invoice-hr {width: 100%; border: 1px solid var(--color_grayd);}
+.bmws_invoice-hr {width: 100%; border: 1px solid var(--color_grayd);}

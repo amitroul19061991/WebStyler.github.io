@@ -1,0 +1,99 @@
+.bmws_btn, .bmws_btn-transp,
+.bmws_btn_border-white, .bmws_btn_bgcolor-white, .bmws_btn_border_glow-white, .bmws_btn_bgcolor_glow-white, 
+.bmws_btn_border-blue, .bmws_btn_bgcolor-blue, .bmws_btn_border_glow-blue, .bmws_btn_bgcolor_glow-blue, 
+.bmws_btn_border-red, .bmws_btn_bgcolor-red, .bmws_btn_border_glow-red, .bmws_btn_bgcolor_glow-red, 
+.bmws_btn_border-green, .bmws_btn_bgcolor-green, .bmws_btn_border_glow-green, .bmws_btn_bgcolor_glow-green, 
+.bmws_btn_border-gold, .bmws_btn_bgcolor-gold, .bmws_btn_border_glow-gold, .bmws_btn_bgcolor_glow-gold, 
+.bmws_btn_border-gray, .bmws_btn_bgcolor-gray, .bmws_btn_border_glow-gray, .bmws_btn_bgcolor_glow-gray,
+.bmws_btn_border-pink, .bmws_btn_bgcolor-pink, .bmws_btn_border_glow-pink, .bmws_btn_bgcolor_glow-pink,
+.bmws_btn_border-teal, .bmws_btn_bgcolor-teal, .bmws_btn_border_glow-teal, .bmws_btn_bgcolor_glow-teal,
+.bmws_btn_border-orange, .bmws_btn_bgcolor-orange, .bmws_btn_border_glow-orange, .bmws_btn_bgcolor_glow-orange,
+.bmws_btn_border-yellow, .bmws_btn_bgcolor-yellow, .bmws_btn_border_glow-yellow, .bmws_btn_bgcolor_glow-yellow,
+.bmws_btn_border-maroon, .bmws_btn_bgcolor-maroon, .bmws_btn_border_glow-maroon, .bmws_btn_bgcolor_glow-maroon,
+.bmws_btn_border-purplel, .bmws_btn_bgcolor-purplel, .bmws_btn_border_glow-purplel, .bmws_btn_bgcolor_glow-purplel,
+.bmws_btn_border-purpled, .bmws_btn_bgcolor-purpled, .bmws_btn_border_glow-purpled, .bmws_btn_bgcolor_glow-purpled,
+.bmws_btn_border-bluenav, .bmws_btn_bgcolor-bluenav, .bmws_btn_border_glow-bluenav, .bmws_btn_bgcolor_glow-bluenav,
+.bmws_btn_border-grayd, .bmws_btn_bgcolor-grayd, .bmws_btn_border_glow-grayd, .bmws_btn_bgcolor_glow-grayd,
+.bmws_btn_border-greend, .bmws_btn_bgcolor-greend, .bmws_btn_border_glow-greend, .bmws_btn_bgcolor_glow-greend
+{
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    width: auto;
+}
+
+.bmws_btn:disabled, .bmws_btn-transp:disabled,
+.bmws_btn_border-white:disabled, .bmws_btn_bgcolor-white:disabled, .bmws_btn_border_glow-white:disabled, .bmws_btn_bgcolor_glow-white:disabled, 
+.bmws_btn_border-blue:disabled, .bmws_btn_bgcolor-blue:disabled, .bmws_btn_border_glow-blue:disabled, .bmws_btn_bgcolor_glow-blue:disabled, 
+.bmws_btn_border-red:disabled, .bmws_btn_bgcolor-red:disabled, .bmws_btn_border_glow-red:disabled, .bmws_btn_bgcolor_glow-red:disabled, 
+.bmws_btn_border-green:disabled, .bmws_btn_bgcolor-green:disabled, .bmws_btn_border_glow-green:disabled, .bmws_btn_bgcolor_glow-green:disabled, 
+.bmws_btn_border-gold:disabled, .bmws_btn_bgcolor-gold:disabled, .bmws_btn_border_glow-gold:disabled, .bmws_btn_bgcolor_glow-gold:disabled, 
+.bmws_btn_border-gray:disabled, .bmws_btn_bgcolor-gray:disabled, .bmws_btn_border_glow-gray:disabled, .bmws_btn_bgcolor_glow-gray:disabled,
+.bmws_btn_border-pink:disabled, .bmws_btn_bgcolor-pink:disabled, .bmws_btn_border_glow-pink:disabled, .bmws_btn_bgcolor_glow-pink:disabled,
+.bmws_btn_border-teal:disabled, .bmws_btn_bgcolor-teal:disabled, .bmws_btn_border_glow-teal:disabled, .bmws_btn_bgcolor_glow-teal:disabled,
+.bmws_btn_border-orange:disabled, .bmws_btn_bgcolor-orange:disabled, .bmws_btn_border_glow-orange:disabled, .bmws_btn_bgcolor_glow-orange:disabled,
+.bmws_btn_border-yellow:disabled, .bmws_btn_bgcolor-yellow:disabled, .bmws_btn_border_glow-yellow:disabled, .bmws_btn_bgcolor_glow-yellow:disabled,
+.bmws_btn_border-maroon:disabled, .bmws_btn_bgcolor-maroon:disabled, .bmws_btn_border_glow-maroon:disabled, .bmws_btn_bgcolor_glow-maroon:disabled,
+.bmws_btn_border-purplel:disabled, .bmws_btn_bgcolor-purplel:disabled, .bmws_btn_border_glow-purplel:disabled, .bmws_btn_bgcolor_glow-purplel:disabled,
+.bmws_btn_border-purpled:disabled, .bmws_btn_bgcolor-purpled:disabled, .bmws_btn_border_glow-purpled:disabled, .bmws_btn_bgcolor_glow-purpled:disabled,
+.bmws_btn_border-bluenav:disabled, .bmws_btn_bgcolor-bluenav:disabled, .bmws_btn_border_glow-bluenav:disabled, .bmws_btn_bgcolor_glow-bluenav:disabled,
+.bmws_btn_border-grayd:disabled, .bmws_btn_bgcolor-grayd:disabled, .bmws_btn_border_glow-grayd:disabled, .bmws_btn_bgcolor_glow-grayd:disabled,
+.bmws_btn_border-greend:disabled, .bmws_btn_bgcolor-greend:disabled, .bmws_btn_border_glow-greend:disabled, .bmws_btn_bgcolor_glow-greend:disabled
+{cursor: unset; opacity: 0.75;}
+
+.bmws_btn-transp {color: var(--color_white);}
+.bmws_btn_border-white, .bmws_btn_bgcolor_glow-white, .bmws_btn_border_glow-white {border: 1px solid var(--color_white); color: var(--color_white);}
+.bmws_btn_border-blue, .bmws_btn_bgcolor_glow-blue, .bmws_btn_border_glow-blue {border: 1px solid var(--color_blue); color: var(--color_blue);}
+.bmws_btn_border-green, .bmws_btn_bgcolor_glow-green, .bmws_btn_border_glow-green {border: 1px solid var(--color_green); color: var(--color_green);}
+.bmws_btn_border-red, .bmws_btn_bgcolor_glow-red, .bmws_btn_border_glow-red {border: 1px solid var(--color_red); color: var(--color_red);}
+.bmws_btn_border-gold, .bmws_btn_bgcolor_glow-gold, .bmws_btn_border_glow-gold {border: 1px solid var(--color_gold); color: var(--color_gold);}
+.bmws_btn_border-gray, .bmws_btn_bgcolor_glow-gray, .bmws_btn_border_glow-gray {border: 1px solid var(--color_gray); color: var(--color_gray);}
+.bmws_btn_border-pink, .bmws_btn_bgcolor_glow-pink, .bmws_btn_border_glow-pink {border: 1px solid var(--color_pink); color: var(--color_pink);}
+.bmws_btn_border-teal, .bmws_btn_bgcolor_glow-teal, .bmws_btn_border_glow-teal {border: 1px solid var(--color_teal); color: var(--color_teal);}
+.bmws_btn_border-orange, .bmws_btn_bgcolor_glow-orange, .bmws_btn_border_glow-orange {border: 1px solid var(--color_orange); color: var(--color_orange);}
+.bmws_btn_border-yellow, .bmws_btn_bgcolor_glow-yellow, .bmws_btn_border_glow-yellow {border: 1px solid var(--color_yellow); color: var(--color_yellow);}
+.bmws_btn_border-maroon, .bmws_btn_bgcolor_glow-maroon, .bmws_btn_border_glow-maroon {border: 1px solid var(--color_maroon); color: var(--color_maroon);}
+.bmws_btn_border-purplel, .bmws_btn_bgcolor_glow-purplel, .bmws_btn_border_glow-purplel {border: 1px solid var(--color_purplel); color: var(--color_purplel);}
+.bmws_btn_border-purpled, .bmws_btn_bgcolor_glow-purpled, .bmws_btn_border_glow-purpled {border: 1px solid var(--color_purpled); color: var(--color_purpled);}
+.bmws_btn_border-bluenav, .bmws_btn_bgcolor_glow-bluenav, .bmws_btn_border_glow-bluenav {border: 1px solid var(--color_bluenav); color: var(--color_bluenav);}
+.bmws_btn_border-grayd, .bmws_btn_bgcolor_glow-grayd, .bmws_btn_border_glow-grayd {border: 1px solid var(--color_grayd); color: var(--color_grayd);}
+.bmws_btn_border-greend, .bmws_btn_bgcolor_glow-greend, .bmws_btn_border_glow-greend {border: 1px solid var(--color_greend); color: var(--color_greend);}
+
+.bmws_btn_border_glow-white, .bmws_btn_bgcolor_glow-white {box-shadow: 0px 0px 20px var(--color_white);}
+.bmws_btn_border_glow-blue, .bmws_btn_bgcolor_glow-blue {box-shadow: 0px 0px 20px var(--color_blue);}
+.bmws_btn_border_glow-red, .bmws_btn_bgcolor_glow-red {box-shadow: 0px 0px 20px var(--color_red);}
+.bmws_btn_border_glow-green, .bmws_btn_bgcolor_glow-green {box-shadow: 0px 0px 20px var(--color_green);}
+.bmws_btn_border_glow-gold, .bmws_btn_bgcolor_glow-gold {box-shadow: 0px 0px 20px var(--color_gold);}
+.bmws_btn_border_glow-gray, .bmws_btn_bgcolor_glow-gray {box-shadow: 0px 0px 20px var(--color_gray);}
+.bmws_btn_border_glow-pink, .bmws_btn_bgcolor_glow-pink {box-shadow: 0px 0px 20px var(--color_pink);}
+.bmws_btn_border_glow-teal, .bmws_btn_bgcolor_glow-teal {box-shadow: 0px 0px 20px var(--color_teal);}
+.bmws_btn_border_glow-orange, .bmws_btn_bgcolor_glow-orange {box-shadow: 0px 0px 20px var(--color_orange);}
+.bmws_btn_border_glow-yellow, .bmws_btn_bgcolor_glow-yellow {box-shadow: 0px 0px 20px var(--color_yellow);}
+.bmws_btn_border_glow-maroon, .bmws_btn_bgcolor_glow-maroon {box-shadow: 0px 0px 20px var(--color_maroon);}
+.bmws_btn_border_glow-purplel, .bmws_btn_bgcolor_glow-purplel {box-shadow: 0px 0px 20px var(--color_purplel);}
+.bmws_btn_border_glow-purpled, .bmws_btn_bgcolor_glow-purpled {box-shadow: 0px 0px 20px var(--color_purpled);}
+.bmws_btn_border_glow-bluenav, .bmws_btn_bgcolor_glow-bluenav {box-shadow: 0px 0px 20px var(--color_bluenav);}
+.bmws_btn_border_glow-grayd, .bmws_btn_bgcolor_glow-grayd {box-shadow: 0px 0px 20px var(--color_grayd);}
+.bmws_btn_border_glow-greend, .bmws_btn_bgcolor_glow-greend {box-shadow: 0px 0px 20px var(--color_greend);}
+
+.bmws_btn_bgcolor-white, .bmws_btn_bgcolor_glow-white {background-color: var(--color_white); color: var(--color_black);}
+.bmws_btn_bgcolor-blue, .bmws_btn_bgcolor_glow-blue {background-color: var(--color_blue); color: var(--color_white);}
+.bmws_btn_bgcolor-red, .bmws_btn_bgcolor_glow-red {background-color: var(--color_red); color: var(--color_white);}
+.bmws_btn_bgcolor-green, .bmws_btn_bgcolor_glow-green {background-color: var(--color_green); color: var(--color_white);}
+.bmws_btn_bgcolor-gold, .bmws_btn_bgcolor_glow-gold {background-color: var(--color_gold); color: var(--color_black);}
+.bmws_btn_bgcolor-gray, .bmws_btn_bgcolor_glow-gray {background-color: var(--color_gray); color: var(--color_black);}
+.bmws_btn_bgcolor-pink, .bmws_btn_bgcolor_glow-pink {background-color: var(--color_pink); color: var(--color_white);}
+.bmws_btn_bgcolor-teal, .bmws_btn_bgcolor_glow-teal {background-color: var(--color_teal); color: var(--color_white);}
+.bmws_btn_bgcolor-orange, .bmws_btn_bgcolor_glow-orange {background-color: var(--color_orange); color: var(--color_black);}
+.bmws_btn_bgcolor-yellow, .bmws_btn_bgcolor_glow-yellow {background-color: var(--color_yellow); color: var(--color_red);}
+.bmws_btn_bgcolor-maroon, .bmws_btn_bgcolor_glow-maroon {background-color: var(--color_maroon); color: var(--color_white);}
+.bmws_btn_bgcolor-purplel, .bmws_btn_bgcolor_glow-purplel {background-color: var(--color_purplel); color: var(--color_white);}
+.bmws_btn_bgcolor-prupled, .bmws_btn_bgcolor_glow-prupled {background-color: var(--color_prupled); color: var(--color_white);}
+.bmws_btn_bgcolor-bluenav, .bmws_btn_bgcolor_glow-bluenav {background-color: var(--color_bluenav); color: var(--color_white);}
+.bmws_btn_bgcolor-grayd, .bmws_btn_bgcolor_glow-grayd {background-color: var(--color_grayd); color: var(--color_white);}
+.bmws_btn_bgcolor-greend, .bmws_btn_bgcolor_glow-greend {background-color: var(--color_greend); color: var(--color_white);}

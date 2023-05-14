@@ -1,0 +1,65 @@
+.bmws_accordian-head-ir, .bmws_accordian-head-ib, .bmws_accordian-body, .bmws_accordian-body-hide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_accordian_cont-xs, .bmws_accordian_cont-sm, .bmws_accordian_cont-md, .bmws_accordian_cont-lg, .bmws_accordian_cont-xl {
+    width: 15%;
+    left: 0; right: 0;
+    height: auto;
+    margin: auto;
+}
+
+.bmws_accordian_cont-sm {width: 25%;} 
+.bmws_accordian_cont-md {width: 40%;} 
+.bmws_accordian_cont-lg {width: 75%;} 
+.bmws_accordian_cont-xl {width: 98%;}
+.bmws_accordian {width: 100%;}
+
+.bmws_accordian-head {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--color_grayd);
+    /* background: var(--bglg_black_white); */
+    align-items: center;
+    display: flex;
+}
+
+.bmws_accordian-head-icon {margin-left: 10px;}
+.bmws_accordian-body, .bmws_accordian-body-hide {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: 0.5s;
+    max-height: 500px;
+    border-radius: 10px;
+    /* background: var(--bglg_black_white); */
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.bmws_accordian-body-hide {max-height: 0;}
+.bmws_accordian-text {width: 100%; max-height: 450px; overflow: auto;}
+.bmws_accordian-head-text {margin-left: 10px;}
+.bmws_accordian-head-ir, .bmws_accordian-head-ib {
+    right: 0;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-right: 10px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.bmws_accordian-head-ib {transform: rotate(450deg);}
+
+@media (max-width: 550px) {
+    .bmws_accordian_cont-xs, .bmws_accordian_cont-sm, .bmws_accordian_cont-md, .bmws_accordian_cont-lg, .bmws_accordian_cont-xl {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

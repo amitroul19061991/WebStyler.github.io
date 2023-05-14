@@ -1,0 +1,154 @@
+.bmws_receipt-cont, .bmws_receipt, .bmws_receipt-foot {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_receipt-cont {
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+
+.bmws_receipt {
+    width: 98%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(247, 245, 255);
+    box-shadow: 0px 0px 10px 5px var(--color_grayl);
+    flex-direction: column;
+    position: relative;
+}
+
+.bmws_receipt-act {
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.bmws_receipt-act button {
+    margin-top: 0px;
+    padding: 5px 7px 5px 7px;
+    float: right;
+}
+
+.bmws_receipt-head, .bmws_receipt-foot, .bmws_receipt-body {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dashed var(--color_black);
+}
+
+.bmws_receipt-head, .bmws_receipt-foot {flex-shrink: 0;}
+.bmws_receipt-head {
+    height: 60px;
+    background-color: var(--color_white);
+    border-radius: 5px 5px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_receipt-head-cont {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_receipt-brand-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: var(--color_gray);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.bmws_receipt-brand-name {
+    height: 100%;
+    margin-left: 10px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: auto;
+}
+
+.bmws_receipt-body {
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.bmws_receipt-foot {
+    border: none; 
+    background-color: rgb(58, 58, 58);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bmws_receipt-disclaimer {
+    width: 90%;
+    height: 100%;
+    font-size: 12px; 
+    color: var(--color_black);
+    color: var(--color_white);
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+}
+
+.bmws_receipt-text {
+    /* font-size: 20px;
+    line-height: 30px; */
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    color: var(--color_black);
+    font-family: "Vidaloka";
+    line-height: normal;
+    text-align: justify;
+}
+
+.bmws_receipt-signature {
+    width: 98%;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+
+.bmws_receipt-line {
+    color: var(--color_black);
+    font-family: "Vidaloka";
+    height: auto;
+    width: auto;
+}
+
+#idReceiptDgSn, .bmws_receipt-dgsn {
+    height: 40px;
+    width: auto;
+}
+
+
+#idReceiptName, .bmws_receipt-name {font-size: 20px;}
+#idReceiptGovt, .bmws_receipt-govt {font-size: 15px;}
+#idReceiptDate, .bmws_receipt-date {font-size: 12px;}
+
+@media (max-width: 550px) {
+    .bmws_receipt-cont {height: 250px;}
+    .bmws_receipt-head, .bmws_receipt-foot {height: 30px;}
+    .bmws_receipt-foot {height: 20px;}
+    .bmws_receipt-disclaimer {font-size: 8px;}
+    .bmws_receipt-brand-icon {width: 25px; height: 25px; margin-left: 5px;}
+    .bmws_receipt-text, .bmws_receipt-type {font-size: 11px; line-height: unset;}
+    .bmws_receipt-dgsn {height: 20px;}
+    .bmws_receipt-name {font-size: 13px;}
+    .bmws_receipt-brand-name {margin-left: 5px;}
+    .bmws_receipt-brand-name .bmws_receipt-name {font-size: 11px;}
+    .bmws_receipt-govt {font-size: 11px;}
+    .bmws_receipt-date {font-size: 10px;}
+    .bmws_receipt-head-other .bmws_receipt-line {font-size: 10px;}
+}

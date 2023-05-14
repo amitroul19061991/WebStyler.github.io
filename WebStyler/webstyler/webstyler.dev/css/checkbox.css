@@ -1,0 +1,25 @@
+.bmws_checkbox-check, .bmws_checkbox-uncheck, .bmws_checkbox-disabled, .bmws_checkbox-icon_cont {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_checkbox-icon_cont {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    transition: 0.5s;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid var(--color_grayd);
+    cursor: pointer;
+}
+
+.bmws_checkbox-disabled .bmws_checkbox-icon_cont {background-color: var(--color_gray);}
+.bmws_checkbox-disabled .bmws_checkbox-icon {color: var(--color_gray);}
+
+.bmws_checkbox-text_alt {display: none;}
+.bmws_checkbox-check .bmws_checkbox-icon_cont {background-color: var(--color_blue); border: 2px solid var(--color_blue);}
+.bmws_checkbox-uncheck .bmws_checkbox-icon {display: none;}
+.bmws_checkbox_value {pointer-events: none; display: none;}
+.bmws_checkbox-square {border-radius: 5px;}

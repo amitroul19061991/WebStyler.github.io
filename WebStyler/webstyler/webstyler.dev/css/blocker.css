@@ -1,0 +1,34 @@
+.bmws_blocker-hide, .bmws_blocker-show {
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    color: var(--color_white);
+    background-color: var(--color_black_t);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    margin: auto;
+}
+
+.bmws_blocker-hide {
+    opacity: 0;
+    z-index: -10;
+}
+
+.bmws_blocker-show {
+    opacity: 1;
+    z-index: 3000;
+}
+
+.bmws_blocker-icon {
+    font-size: 75px;
+}
+
+.bmws_blocker-text {
+    margin-top: 10px;
+    font-size: 25px;
+}

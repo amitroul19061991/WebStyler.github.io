@@ -1,0 +1,22 @@
+.bmws_separator-h {
+    width: 90%;
+    min-height: 30px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex; 
+}
+
+.bmws_separator-h .bmws_separator-l1, 
+.bmws_separator-h .bmws_separator-l2 {
+    width: 100%;
+    background-color: var(--color_gray);
+}
+
+.bmws_separator-text {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    width: auto;
+}

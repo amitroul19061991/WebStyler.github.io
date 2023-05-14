@@ -1,0 +1,129 @@
+.bmws_modaldialog, .bmws_modaldialog-hide {
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    transition: 2s;
+    background-color: var(--color_black_t);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    margin: auto;
+}
+
+.bmws_modaldialog-hide {display: none;}
+.bmws_modal_cont-no, .bmws_modal_cont-xs, .bmws_modal_cont-sm, .bmws_modal_cont-md,
+.bmws_modal_cont-lg, .bmws_modal_cont-xl, .bmws_modal_cont-fl {
+    opacity: 1;
+    max-height: 100%;
+    transition: 0.3s;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--color_white);
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.bmws_modal_cont-no {width: 0px; opacity: 0; height: 0px;}
+.bmws_modal_cont-xs {width: 300px; height: auto;}
+.bmws_modal_cont-sm {width: 400px; height: auto;}
+.bmws_modal_cont-md {width: 600px; height: auto;}
+.bmws_modal_cont-lg {width: 900px; height: auto;}
+.bmws_modal_cont-xl {width: 1200px; height: auto;}
+.bmws_modal_cont-fl {width: 100%; height: 100%;}
+
+.bmws_modal-head, .bmws_modal-foot {
+    width: 100%;
+    padding: 2px;
+    flex-shrink: 0;
+    min-height: 45px;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+
+.bmws_modal-head {border-bottom: 1px solid gainsboro;}
+.bmws_modal-icon, .bmws_modal-close {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50% 50% 50% 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_modal-icon {
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bmws_modal-close {cursor: pointer;}
+.bmws_modal-title {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(30, 30, 30);
+    text-align: center;
+    height: auto;
+}
+
+.bmws_modal-close {
+    width: 30px;
+    height: 30px;
+    align-self: flex-start;
+    color: var(--color_gray);
+}
+
+.bmws_modal-foot {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid gainsboro;
+    justify-content: flex-end;
+}
+
+.bmws_modal-foot-default, .bmws_modal-foot-cust-cont {
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-end; 
+    display: flex; 
+    height: auto;
+}
+
+.bmws_modal-foot-default button, .bmws_modal-foot-cust-cont button {
+    padding: 5px;
+    font-size: 17px;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_modal-foot-default {justify-content: flex-end;}
+.bmws_modal-foot-cust-cont {justify-content: flex-start;}
+.bmws_modal-accept, .bmws_modal-reject {height: 0% !important; flex-shrink: 0;}
+
+.bmws_modal-body,
+.bmws_modal-body-flex {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    min-height: 100px;
+    overflow: auto;
+}
+
+.bmws_modal-body-flex {justify-content: center; flex-direction: column; display: flex;}
+
+/* @media (max-width: 550px) {
+    .bmws_modal_cont-no, .bmws_modal_cont-xs, .bmws_modal_cont-sm, .bmws_modal_cont-md,
+    .bmws_modal_cont-lg, .bmws_modal_cont-xl, .bmws_modal_cont-fl {
+        width: 95%;
+    }
+} */

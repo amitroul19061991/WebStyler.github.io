@@ -1,0 +1,43 @@
+.bmws_switch_cont {
+    border-radius: 100px;
+    width: 60px; height: 25px;
+    box-shadow: 0px 0px 10px var(--color_gray);
+    cursor: pointer;
+}
+
+.bmws_switch-off, .bmws_switch-on {
+    padding: 3px;
+    transition: 0.5s;
+    width: 100%; height: 100%;
+    background-color: var(--color_pink);
+    border-radius: inherit;
+    display: flex;
+}
+
+.bmws_switch-on {background-color: var(--color_blue);}
+
+.bmws_switch {
+    transition: 0.5s;
+    border-radius: 100px;
+    width: 25px; height: 25px;
+    background-color: white;
+    position: absolute;
+}
+
+.bmws_switch-on .bmws_switch {transform: translateX(35px);}
+
+.bmws_switch_text, .bmws_switch-disable {
+    font-size: 13px;
+    transition: 0.5s;
+    left: 0; right: 0;
+    width: 80%; height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+
+.bmws_switch-on .bmws_switch_text, .bmws_switch-on .bmws_switch-disable {justify-content: flex-start;}
+.bmws_switch_value {pointer-events: none; display: none;}

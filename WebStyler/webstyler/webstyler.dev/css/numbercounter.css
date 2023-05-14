@@ -1,0 +1,13 @@
+.bmws_counter-cont {
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+}
+
+.bmws_counter {
+    font-size: 75px;
+}
+
+.bmws_counter-uom {
+    font-size: 30px;
+}

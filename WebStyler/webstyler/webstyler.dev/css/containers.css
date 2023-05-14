@@ -1,0 +1,143 @@
+.bmws_display-flex {display: flex;}
+
+
+.bmws_body, .bmws_body_flex, 
+.bmws_body_flex-cae, .bmws_body_flex-tlc, .bmws_body_flex-cht,
+.bmws_body_flex-trc, .bmws_body_flex-cvr, .bmws_body_flex-brc,
+.bmws_body_flex-chb, .bmws_body_flex-blc, .bmws_body_flex-cvl,
+.bmws_body_flex-fdr, .bmws_body_flex-fdc {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_black);
+    background-color: var(--color_white);
+    overflow-x: hidden;
+    position: absolute;
+    margin: auto;
+}
+
+.bmws_body_flex, 
+.bmws_body_flex-cae, .bmws_body_flex-tlc, .bmws_body_flex-cht,
+.bmws_body_flex-trc, .bmws_body_flex-cvr, .bmws_body_flex-brc,
+.bmws_body_flex-chb, .bmws_body_flex-blc, .bmws_body_flex-cvl,
+.bmws_body_flex-fdr, .bmws_body_flex-fdc {display: flex;}
+
+.bmws_body_flex-cae {justify-content: center; align-items: center;} /* Centered All Elements */
+.bmws_body_flex-tlc {justify-content: flex-start;}  /* Top Left Corner */
+.bmws_body_flex-cht {justify-content: center;}  /* Centered Horizonally Top */
+.bmws_body_flex-trc {justify-content: flex-end;}  /* Top Right Corner */
+.bmws_body_flex-cvr {justify-content: flex-end; align-items: center;} /* Centered Vertically right */
+.bmws_body_flex-brc {justify-content: flex-end; align-items: flex-end;} /* Bottom Right Corner */
+.bmws_body_flex-chb {justify-content: center; align-items: flex-end;} /* Centered Horizontally Bottom */
+.bmws_body_flex-blc {justify-content: flex-start; align-items: flex-end;} /* Centered Vertically Bottom */
+.bmws_body_flex-cvl {align-items: center;}  /* Centered Vertically Left */
+.bmws_body_flex-fdc {flex-direction: column;} /* Flex Direction Column */
+.bmws_body_flex-fdr {flex-direction: row;} /* Flex Direction Row */
+
+.bmws_flex-cae {justify-content: center; align-items: center;} /* Centered All Elements */
+.bmws_flex-tlc {justify-content: flex-start; align-items: flex-start;}  /* Top Left Corner */
+.bmws_flex-cht {justify-content: center; align-items: flex-start;}  /* Centered Horizonally Top */
+.bmws_flex-trc {justify-content: flex-end; align-items: flex-end;}  /* Top Right Corner */
+.bmws_flex-cvr {justify-content: flex-end; align-items: center;} /* Centered Vertically right */
+.bmws_flex-brc {justify-content: flex-end; align-items: flex-end;} /* Bottom Right Corner */
+.bmws_flex-chb {justify-content: center; align-items: flex-end;} /* Centered Horizontally Bottom */
+.bmws_flex-blc {justify-content: flex-start; align-items: flex-end;} /* Centered Vertically Bottom */
+.bmws_flex-cvl {justify-content: flex-start; align-items: center;}  /* Centered Vertically Left */
+.bmws_flex-fdc {flex-direction: column;} /* Flex Direction Column */
+.bmws_flex-fdr {flex-direction: row;} /* Flex Direction Row */
+
+.bmws_flex-cae-i {justify-content: center !important; align-items: center !important;} /* Centered All Elements */
+.bmws_flex-tlc-i {justify-content: flex-start !important; align-items: flex-start !important;}  /* Top Left Corner */
+.bmws_flex-cht-i {justify-content: center !important; align-items: flex-start !important;}  /* Centered Horizonally Top */
+.bmws_flex-trc-i {justify-content: flex-end !important; align-items: flex-end !important;}  /* Top Right Corner */
+.bmws_flex-cvr-i {justify-content: flex-end !important; align-items: center !important;} /* Centered Vertically right */
+.bmws_flex-brc-i {justify-content: flex-end !important; align-items: flex-end !important;} /* Bottom Right Corner */
+.bmws_flex-chb-i {justify-content: center !important; align-items: flex-end !important;} /* Centered Horizontally Bottom */
+.bmws_flex-blc-i {justify-content: flex-start !important; align-items: flex-end !important;} /* Centered Vertically Bottom */
+.bmws_flex-cvl-i {justify-content: flex-start !important; align-items: center !important;}  /* Centered Vertically Left */
+.bmws_flex-fdc-i {flex-direction: column !important;} /* Flex Direction Column */
+.bmws_flex-fdr-i {flex-direction: row !important;} /* Flex Direction Row */
+
+.bmws_container {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px var(--color_gray); */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+}
+
+.bmws_sec-head, .bmws_sec-body, .bmws_sec-foot {
+    width: 95%; 
+    height: 40px;
+    /* background-color: var(--color_black); */
+}
+
+.bmws_sec-head, .bmws_sec-foot {flex-shrink: 0;}
+.bmws_sec-body {height: 100%;}
+
+
+
+
+
+.bmws_bottom_cont-show, .bmws_bottom_cont-hide {
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    transition: 0.5s;
+    flex-direction: column;
+    position: absolute;
+    margin-top: auto;
+    display: flex;
+}
+
+.bmws_bottom_cont-hide {height: 0%;}
+.bmws_bottom_cont-head, .bmws_bottom_cont-foot {
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_bottom_cont-body {width: 100%; height: 100%;}
+.bmws_bottom_cont-hide .bmws_bottom_cont-head, .bmws_bottom_cont-hide .bmws_bottom_cont-body, 
+.bmws_bottom_cont-hide .bmws_bottom_cont-foot {opacity: 1; z-index: 10; height: 0%;}
+.bmws_bottom_cont-hide .bmws_bottom_cont-head button, .bmws_bottom_cont-hide .bmws_bottom_cont-foot button {display: none;}
+
+
+
+
+
+.bmws_partition-sm, .bmws_partition-md, .bmws_partition-lg, .bmws_partition-xl {
+    min-height: 200px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px var(--color_grayd); */
+    position: absolute;
+    height: auto;
+}
+
+.bmws_partition-sm {width: 25%;}
+.bmws_partition-md {width: 40%;}
+.bmws_partition-lg {width: 60%;}
+.bmws_partition-xl {width: 80%;}
+
+@media (max-width: 550px) {
+    .bmws_container {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+        border-radius: unset;
+    }
+
+    .bmws_partition-sm, .bmws_partition-md, .bmws_partition-lg, .bmws_partition-xl {
+        width: 95%;
+        box-shadow: none;
+    }
+}

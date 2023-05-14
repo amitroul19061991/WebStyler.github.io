@@ -1,0 +1,84 @@
+.bmws_list-xs, .bmws_list-sm, .bmws_list-md, .bmws_list-lg, .bmws_list-xl,
+.bmws_list_wp, .bmws_list_wp-head, .bmws_list_wp-body, .bmws_list_act, .bmws_list_act-icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bmws_list-xs, .bmws_list-sm, .bmws_list-md, .bmws_list-lg, .bmws_list-xl {
+    left: 0;
+    right: 0;
+    width: 25%;
+    height: 75px;
+    margin-top: 10px;
+    /* background: var(--bglg_black_white); */
+    border-radius: 100px 75px 75px 100px;
+    border: 1px solid var(--color_gray);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bmws_list-sm {width: 40%;}
+.bmws_list-md {width: 60%;}
+.bmws_list-lg {width: 80%;}
+.bmws_list-xl {width: 96%;}
+.bmws_list_pi, .bmws_list_act {width: 50px; height: 100%; flex-shrink: 0;}
+.bmws_list_act {transform: translateX(20px);}
+.bmws_list_pi {
+    width: 75px; 
+    border-radius: 50%; 
+    border: 2px solid var(--color_gray);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.bmws_list_wp {width: 100%; height: 100%; flex-direction: column; overflow: hidden;}
+.bmws_list_wp-head {
+    width: 100%; 
+    height: 50px; 
+    flex-shrink: 0; 
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+.bmws_list_wp-head span {
+    width: 100%; 
+    margin-top: 5px; 
+    padding-left: 10px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    height: auto;
+}
+
+.bmws_list_wp-body {
+    width: 100%; 
+    height: 100%; 
+    font-size: 15px; 
+    padding-left: 10px;
+    white-space: nowrap; 
+    overflow-y: hidden; 
+    overflow-x: auto; 
+    display: block;
+}
+
+.bmws_list_wp-body::-webkit-scrollbar {height: 0px;}
+
+.bmws_list_act-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 50%;
+    /* background: var(--bglg_black_white); */
+    background-color: var(--color_white);
+    border: 1px solid var(--color_gray);
+    cursor: pointer;
+}
+
+@media(max-width: 550px) {
+    .bmws_list-xs, .bmws_list-sm, .bmws_list-md, .bmws_list-lg, .bmws_list-xl {width: 95%; height: 60px; border-radius: 100px 75px 75px 100px;}
+    .bmws_list_pi {width: 60px;}
+    .bmws_list_wp-head {height: 40px;}
+    .bmws_list_wp-head span {margin-top: 3px;}
+    .bmws_list_act {transform: unset;}
+    .bmws_list_act-icon {width: 30px; height: 30px; font-size: 25px;}
+}

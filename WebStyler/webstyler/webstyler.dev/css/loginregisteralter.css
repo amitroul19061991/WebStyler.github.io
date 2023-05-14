@@ -1,0 +1,151 @@
+
+.bmws_logreg_cont, .bmws_logreg_base-c, .bmws_logreg_base-h,
+.bmws_logreg_head, .bmws_logreg_body, .bmws_logreg_foot,
+.bmws_logreg_icon-c, .bmws_logreg_icon-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmws_logreg_cont {
+    width: 400px;
+    height: 550px;
+    /* min-width: 300px; */
+    position: absolute;
+}
+
+.bmws_logreg_base-c, .bmws_logreg_base-h {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-color: transparent;
+    flex-direction: column;
+    position: absolute;
+}
+
+.bmws_logreg_base-c {
+    z-index: 1;
+}
+
+.bmws_logreg_base-h {
+    z-index: 0;
+    transform: translateX(20px) rotate(5deg);
+    cursor: pointer;
+}
+
+.bmws_logreg_head, .bmws_logreg_body, .bmws_logreg_foot {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: transparent;
+}
+
+.bmws_logreg_head {top: 0;}
+.bmws_logreg_foot {
+    bottom: 0;
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--color_black);
+    border: 1px solid var(--color_grayd);
+    justify-content: flex-end;
+    border-top: none;
+}
+
+.bmws_logreg_base-h .bmws_logreg_foot {
+    background-color: var(--color_greenl);
+}
+
+.bmws_logreg_body, .bmws_logreg_body_cont {
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--color_black);
+    border: 1px solid var(--color_grayd);
+    flex-direction: column;
+    border-bottom: none;
+    align-items: unset;
+    flex-shrink: unset;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bmws_logreg_body_cont {
+    width: 100%;
+}
+
+.bmws_logreg_base-h .bmws_logreg_body {
+    background-color: var(--color_greenl);
+}
+
+.bmws_logreg_icon-c, .bmws_logreg_icon-h {
+    z-index: 1;
+    border-radius: 50%;
+    color: var(--color_white);
+    position: absolute;
+}
+
+.bmws_logreg_icon-c, .bmws_logreg_icon-h {
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    transition: 0.5s;
+    transform: translateY(20px);
+    background-color: var(--color_blue);
+    border: 2px solid var(--color_white);
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.bmws_logreg_icon-h {
+    transform: translate(185px, 20px) rotate(15deg);
+    background-color: var(--color_pink);
+}
+
+.bmws_logreg_text-h, .bmws_logreg_text-c {
+    bottom: 0;
+    font-size: 15px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.bmws_logreg_text-h {
+    transform: translateY(50px);
+    position: absolute;
+}
+
+.bmws_logreg_base-h .bmws_logreg_foot input,
+.bmws_logreg_base-h .bmws_logreg_foot button {
+    transition: 0.5s;
+    display: none;
+}
+
+
+@media(max-height:400px) and (max-width:700px) {
+    .bmws_logreg_cont {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media(max-width:550px) {
+    .bmws_logreg_cont {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bmws_logreg_base-h, .bmws_logreg_base-c {
+        height: 90%;
+    }
+    
+    .bmws_logreg_base-h {
+        top: 0;
+        transform: none;
+    }
+    
+    .bmws_logreg_base-c {
+        bottom: 0;
+    }
+
+    .bmws_logreg_icon-h {
+        transform: translate(50px, 20px);
+    }
+}
